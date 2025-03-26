@@ -1,0 +1,39 @@
+services:
+  sqlserver:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    container_name: sqlserver
+    environment:
+      SA_PASSWORD: "YourStrong!Passw0rd"
+      ACCEPT_EULA: "Y"
+    ports:
+      - "1433:1433"  # Expose SQL Server port
+
+  api:
+    build:
+      context: ./  # Set context to the current folder where Dockerfile is located (D:\API)
+      dockerfile: Dockerfile  # Dockerfile is inside the API folder
+    container_name: companyapi
+    depends_on:
+      - sqlserver
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    ports:
+      - "5000:5000"  # Expose the API on port 5000
+    networks:
+      - app-network
+
+  client:
+    build:
+      context: ../Client  # Adjust context to the parent folder (D:\Client)
+      dockerfile: CompanyClient/Dockerfile  # Dockerfile is inside the CompanyClient folder
+    container_name: companyclient
+    depends_on:
+      - api
+    ports:
+      - "80:80"  # Expose Angular app on port 80
+    networks:
+      - app-network
+
+networks:
+  app-network:
+    driver: bridge

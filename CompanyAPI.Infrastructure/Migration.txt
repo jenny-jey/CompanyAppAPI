@@ -1,0 +1,19 @@
+﻿to add a new Migration
+--------------------------------
+
+dotnet ef migrations add Initial --Project CompanyAPI.Infrastructure --StartupProject ../CompanyAPI.API
+
+ Add-Migration InitialCreate -Project CompanyAPI.Infrastructure -StartupProject CompanyAPI.API
+ Add-Migration AddNewTable -Project CompanyAPI.Infrastructure -StartupProject CompanyAPI.API
+
+to upgrade the tools
+dotnet tool update --global dotnet-ef
+
+
+To fix migrations by resetting back to first create, clear all miggrations and set current models as starting point
+
+----- NO NOT USE THIS SCRIP - DROPS DATABASE -----
+----- END NO NOT USE THIS SCRIP - DROPS DATABASE -----
+
+
+

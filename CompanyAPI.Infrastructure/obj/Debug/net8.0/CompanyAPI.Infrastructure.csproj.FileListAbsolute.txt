@@ -1,0 +1,17 @@
+D:\API\CompanyAPI.Infrastructure\bin\Debug\net8.0\CompanyAPI.Infrastructure.deps.json
+D:\API\CompanyAPI.Infrastructure\bin\Debug\net8.0\CompanyAPI.Infrastructure.runtimeconfig.json
+D:\API\CompanyAPI.Infrastructure\bin\Debug\net8.0\CompanyAPI.Infrastructure.dll
+D:\API\CompanyAPI.Infrastructure\bin\Debug\net8.0\CompanyAPI.Infrastructure.pdb
+D:\API\CompanyAPI.Infrastructure\bin\Debug\net8.0\CompanyAPI.Domain.dll
+D:\API\CompanyAPI.Infrastructure\bin\Debug\net8.0\CompanyAPI.Domain.pdb
+D:\API\CompanyAPI.Infrastructure\obj\Debug\net8.0\CompanyAPI.Infrastructure.csproj.AssemblyReference.cache
+D:\API\CompanyAPI.Infrastructure\obj\Debug\net8.0\CompanyAPI.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\API\CompanyAPI.Infrastructure\obj\Debug\net8.0\CompanyAPI.Infrastructure.AssemblyInfoInputs.cache
+D:\API\CompanyAPI.Infrastructure\obj\Debug\net8.0\CompanyAPI.Infrastructure.AssemblyInfo.cs
+D:\API\CompanyAPI.Infrastructure\obj\Debug\net8.0\CompanyAPI.Infrastructure.csproj.CoreCompileInputs.cache
+D:\API\CompanyAPI.Infrastructure\obj\Debug\net8.0\CompanyAPI.Infrastructure.csproj.CopyComplete
+D:\API\CompanyAPI.Infrastructure\obj\Debug\net8.0\CompanyAPI.Infrastructure.dll
+D:\API\CompanyAPI.Infrastructure\obj\Debug\net8.0\refint\CompanyAPI.Infrastructure.dll
+D:\API\CompanyAPI.Infrastructure\obj\Debug\net8.0\CompanyAPI.Infrastructure.pdb
+D:\API\CompanyAPI.Infrastructure\obj\Debug\net8.0\CompanyAPI.Infrastructure.genruntimeconfig.cache
+D:\API\CompanyAPI.Infrastructure\obj\Debug\net8.0\ref\CompanyAPI.Infrastructure.dll

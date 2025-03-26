@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "yWL0oFmOExJTmFPP5V5xZLSdScex1+o9mv7MaSwAvwE=",
+  "Source": "CompanyAPI.API",
+  "BasePath": "_content/CompanyAPI.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

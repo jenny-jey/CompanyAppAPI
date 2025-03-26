@@ -1,0 +1,12 @@
+D:\API\CompanyAPI.Domain\bin\Debug\net8.0\CompanyAPI.Domain.deps.json
+D:\API\CompanyAPI.Domain\bin\Debug\net8.0\CompanyAPI.Domain.dll
+D:\API\CompanyAPI.Domain\bin\Debug\net8.0\CompanyAPI.Domain.pdb
+D:\API\CompanyAPI.Domain\obj\Debug\net8.0\CompanyAPI.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\API\CompanyAPI.Domain\obj\Debug\net8.0\CompanyAPI.Domain.AssemblyInfoInputs.cache
+D:\API\CompanyAPI.Domain\obj\Debug\net8.0\CompanyAPI.Domain.AssemblyInfo.cs
+D:\API\CompanyAPI.Domain\obj\Debug\net8.0\CompanyAPI.Domain.csproj.CoreCompileInputs.cache
+D:\API\CompanyAPI.Domain\obj\Debug\net8.0\CompanyAPI.Domain.dll
+D:\API\CompanyAPI.Domain\obj\Debug\net8.0\refint\CompanyAPI.Domain.dll
+D:\API\CompanyAPI.Domain\obj\Debug\net8.0\CompanyAPI.Domain.pdb
+D:\API\CompanyAPI.Domain\obj\Debug\net8.0\ref\CompanyAPI.Domain.dll
+D:\API\CompanyAPI.Domain\obj\Debug\net8.0\CompanyAPI.Domain.csproj.AssemblyReference.cache
