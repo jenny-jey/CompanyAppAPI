@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "qX6Drjzg8hwHaa2HgPyOeC7eC3o7m11d2dTAydIP+F+Nul9ERFFw3Uvlxecmf/x982cDxYaxG8UbWjzNP71cew==",
+  "dgSpecHash": "UZrD29NoRlzJoeZklEwTODqGNv0991n+lLsBywO/BuQaEEtApbkxy6EdQ0C/UOiOgkxkBu0meLPecWMd2G30+w==",
   "success": true,
-  "projectFilePath": "D:\\API\\CompanyAPI.Infrastructure\\CompanyAPI.Infrastructure.csproj",
+  "projectFilePath": "D:\\CompanyApp\\CompanyAppAPI\\CompanyAPI.Infrastructure\\CompanyAPI.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jenij\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\jenij\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

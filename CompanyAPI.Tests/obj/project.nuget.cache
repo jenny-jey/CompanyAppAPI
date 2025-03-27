@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Y6c7pUgPbnUVUCqJqbp43wGu513moYQvDn1kQgpsF+zUlJqYLZLqe7+Qwj50nRkUWAr2sve8+0d4ha9UFDoXtg==",
+  "dgSpecHash": "hRpumGCKYhTvaShhAn8uaSgpv4FVIRL5584IH497zYWoDdEFlIUv/CqLW3SPhn8/rD3hU/9PA7dY9TiyO5T/ig==",
   "success": true,
-  "projectFilePath": "D:\\API\\CompanyAPI.Tests\\CompanyAPI.Tests.csproj",
+  "projectFilePath": "D:\\CompanyApp\\CompanyAppAPI\\CompanyAPI.Tests\\CompanyAPI.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jenij\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\jenij\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\API\\CompanyAPI.Tests\\CompanyAPI.Tests.csproj": {}
+    "D:\\CompanyApp\\CompanyAppAPI\\CompanyAPI.Tests\\CompanyAPI.Tests.csproj": {}
   },
   "projects": {
-    "D:\\API\\CompanyAPI.Application\\CompanyAPI.Application.csproj": {
+    "D:\\CompanyApp\\CompanyAppAPI\\CompanyAPI.Application\\CompanyAPI.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\API\\CompanyAPI.Application\\CompanyAPI.Application.csproj",
+        "projectUniqueName": "D:\\CompanyApp\\CompanyAppAPI\\CompanyAPI.Application\\CompanyAPI.Application.csproj",
         "projectName": "CompanyAPI.Application",
-        "projectPath": "D:\\API\\CompanyAPI.Application\\CompanyAPI.Application.csproj",
+        "projectPath": "D:\\CompanyApp\\CompanyAppAPI\\CompanyAPI.Application\\CompanyAPI.Application.csproj",
         "packagesPath": "C:\\Users\\jenij\\.nuget\\packages\\",
-        "outputPath": "D:\\API\\CompanyAPI.Application\\obj\\",
+        "outputPath": "D:\\CompanyApp\\CompanyAppAPI\\CompanyAPI.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,8 +32,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\API\\CompanyAPI.Domain\\CompanyAPI.Domain.csproj": {
-                "projectPath": "D:\\API\\CompanyAPI.Domain\\CompanyAPI.Domain.csproj"
+              "D:\\CompanyApp\\CompanyAppAPI\\CompanyAPI.Domain\\CompanyAPI.Domain.csproj": {
+                "projectPath": "D:\\CompanyApp\\CompanyAppAPI\\CompanyAPI.Domain\\CompanyAPI.Domain.csproj"
               }
             }
           }
@@ -81,14 +81,14 @@
         }
       }
     },
-    "D:\\API\\CompanyAPI.Domain\\CompanyAPI.Domain.csproj": {
+    "D:\\CompanyApp\\CompanyAppAPI\\CompanyAPI.Domain\\CompanyAPI.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\API\\CompanyAPI.Domain\\CompanyAPI.Domain.csproj",
+        "projectUniqueName": "D:\\CompanyApp\\CompanyAppAPI\\CompanyAPI.Domain\\CompanyAPI.Domain.csproj",
         "projectName": "CompanyAPI.Domain",
-        "projectPath": "D:\\API\\CompanyAPI.Domain\\CompanyAPI.Domain.csproj",
+        "projectPath": "D:\\CompanyApp\\CompanyAppAPI\\CompanyAPI.Domain\\CompanyAPI.Domain.csproj",
         "packagesPath": "C:\\Users\\jenij\\.nuget\\packages\\",
-        "outputPath": "D:\\API\\CompanyAPI.Domain\\obj\\",
+        "outputPath": "D:\\CompanyApp\\CompanyAppAPI\\CompanyAPI.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -146,14 +146,14 @@
         }
       }
     },
-    "D:\\API\\CompanyAPI.Infrastructure\\CompanyAPI.Infrastructure.csproj": {
+    "D:\\CompanyApp\\CompanyAppAPI\\CompanyAPI.Infrastructure\\CompanyAPI.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\API\\CompanyAPI.Infrastructure\\CompanyAPI.Infrastructure.csproj",
+        "projectUniqueName": "D:\\CompanyApp\\CompanyAppAPI\\CompanyAPI.Infrastructure\\CompanyAPI.Infrastructure.csproj",
         "projectName": "CompanyAPI.Infrastructure",
-        "projectPath": "D:\\API\\CompanyAPI.Infrastructure\\CompanyAPI.Infrastructure.csproj",
+        "projectPath": "D:\\CompanyApp\\CompanyAppAPI\\CompanyAPI.Infrastructure\\CompanyAPI.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\jenij\\.nuget\\packages\\",
-        "outputPath": "D:\\API\\CompanyAPI.Infrastructure\\obj\\",
+        "outputPath": "D:\\CompanyApp\\CompanyAppAPI\\CompanyAPI.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -174,8 +174,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\API\\CompanyAPI.Domain\\CompanyAPI.Domain.csproj": {
-                "projectPath": "D:\\API\\CompanyAPI.Domain\\CompanyAPI.Domain.csproj"
+              "D:\\CompanyApp\\CompanyAppAPI\\CompanyAPI.Domain\\CompanyAPI.Domain.csproj": {
+                "projectPath": "D:\\CompanyApp\\CompanyAppAPI\\CompanyAPI.Domain\\CompanyAPI.Domain.csproj"
               }
             }
           }
@@ -239,14 +239,14 @@
         }
       }
     },
-    "D:\\API\\CompanyAPI.Tests\\CompanyAPI.Tests.csproj": {
+    "D:\\CompanyApp\\CompanyAppAPI\\CompanyAPI.Tests\\CompanyAPI.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\API\\CompanyAPI.Tests\\CompanyAPI.Tests.csproj",
+        "projectUniqueName": "D:\\CompanyApp\\CompanyAppAPI\\CompanyAPI.Tests\\CompanyAPI.Tests.csproj",
         "projectName": "CompanyAPI.Tests",
-        "projectPath": "D:\\API\\CompanyAPI.Tests\\CompanyAPI.Tests.csproj",
+        "projectPath": "D:\\CompanyApp\\CompanyAppAPI\\CompanyAPI.Tests\\CompanyAPI.Tests.csproj",
         "packagesPath": "C:\\Users\\jenij\\.nuget\\packages\\",
-        "outputPath": "D:\\API\\CompanyAPI.Tests\\obj\\",
+        "outputPath": "D:\\CompanyApp\\CompanyAppAPI\\CompanyAPI.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -267,11 +267,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\API\\CompanyAPI.Application\\CompanyAPI.Application.csproj": {
-                "projectPath": "D:\\API\\CompanyAPI.Application\\CompanyAPI.Application.csproj"
+              "D:\\CompanyApp\\CompanyAppAPI\\CompanyAPI.Application\\CompanyAPI.Application.csproj": {
+                "projectPath": "D:\\CompanyApp\\CompanyAppAPI\\CompanyAPI.Application\\CompanyAPI.Application.csproj"
               },
-              "D:\\API\\CompanyAPI\\CompanyAPI.API.csproj": {
-                "projectPath": "D:\\API\\CompanyAPI\\CompanyAPI.API.csproj"
+              "D:\\CompanyApp\\CompanyAppAPI\\CompanyAPI\\CompanyAPI.API.csproj": {
+                "projectPath": "D:\\CompanyApp\\CompanyAppAPI\\CompanyAPI\\CompanyAPI.API.csproj"
               }
             }
           }
@@ -339,14 +339,14 @@
         }
       }
     },
-    "D:\\API\\CompanyAPI\\CompanyAPI.API.csproj": {
+    "D:\\CompanyApp\\CompanyAppAPI\\CompanyAPI\\CompanyAPI.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\API\\CompanyAPI\\CompanyAPI.API.csproj",
+        "projectUniqueName": "D:\\CompanyApp\\CompanyAppAPI\\CompanyAPI\\CompanyAPI.API.csproj",
         "projectName": "CompanyAPI.API",
-        "projectPath": "D:\\API\\CompanyAPI\\CompanyAPI.API.csproj",
+        "projectPath": "D:\\CompanyApp\\CompanyAppAPI\\CompanyAPI\\CompanyAPI.API.csproj",
         "packagesPath": "C:\\Users\\jenij\\.nuget\\packages\\",
-        "outputPath": "D:\\API\\CompanyAPI\\obj\\",
+        "outputPath": "D:\\CompanyApp\\CompanyAppAPI\\CompanyAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -367,11 +367,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\API\\CompanyAPI.Application\\CompanyAPI.Application.csproj": {
-                "projectPath": "D:\\API\\CompanyAPI.Application\\CompanyAPI.Application.csproj"
+              "D:\\CompanyApp\\CompanyAppAPI\\CompanyAPI.Application\\CompanyAPI.Application.csproj": {
+                "projectPath": "D:\\CompanyApp\\CompanyAppAPI\\CompanyAPI.Application\\CompanyAPI.Application.csproj"
               },
-              "D:\\API\\CompanyAPI.Infrastructure\\CompanyAPI.Infrastructure.csproj": {
-                "projectPath": "D:\\API\\CompanyAPI.Infrastructure\\CompanyAPI.Infrastructure.csproj"
+              "D:\\CompanyApp\\CompanyAppAPI\\CompanyAPI.Infrastructure\\CompanyAPI.Infrastructure.csproj": {
+                "projectPath": "D:\\CompanyApp\\CompanyAppAPI\\CompanyAPI.Infrastructure\\CompanyAPI.Infrastructure.csproj"
               }
             }
           }

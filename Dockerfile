@@ -1,41 +1,36 @@
-#See https://aka.ms/customizecontainer to learn how to customize your debug container and how Visual Studio uses this Dockerfile to build your images for faster debugging.
-
+# Use the official image for ASP.NET Core
 FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS base
-#USER app
 WORKDIR /app
+EXPOSE 80
 
-EXPOSE 8080
-EXPOSE 8081
-
+# Use the official SDK image to build the application
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
-ARG BUILD_CONFIGURATION=Release
 WORKDIR /src
+COPY ["CompanyAPI/CompanyAPI.sln", "CompanyAPI/"]
+#COPY ["CompanyAPI/CompanyAPI.API/CompanyAPI.API.csproj", "CompanyAPI/CompanyAPI.API/"]
+#COPY ["CompanyAPI/CompanyAPI.Application/CompanyAPI.Application.csproj", "CompanyAPI/CompanyAPI.Application/"]
+#COPY ["CompanyAPI/CompanyAPI.Domain/CompanyAPI.Domain.csproj", "CompanyAPI/CompanyAPI.Domain/"]
+#COPY ["CompanyAPI/CompanyAPI.Infrastructure/CompanyAPI.Infrastructure.csproj", "CompanyAPI/CompanyAPI.Infrastructure/"]
+#COPY ["CompanyAPI/CompanyAPI.Tests/CompanyAPI.Tests.csproj", "CompanyAPI/CompanyAPI.Tests/"]
+COPY ["CompanyAPI/CompanyAPI.API.csproj", "CompanyAPI/"]
+COPY ["CompanyAPI.Application/CompanyAPI.Application.csproj", "CompanyAPI.Application/"]
+COPY ["CompanyAPI.Domain/CompanyAPI.Domain.csproj", "CompanyAPI.Domain/"]
+COPY ["CompanyAPI.Infrastructure/CompanyAPI.Infrastructure.csproj", "CompanyAPI.Infrastructure/"]
+COPY ["CompanyAPI.Tests/CompanyAPI.Tests.csproj", "CompanyAPI.Tests/"]
 
-# Copy the .csproj files for all sub-projects (to restore dependencies)
-COPY CompanyAPI/CompanyAPI.csproj CompanyAPI/
-COPY CompanyAPI.Application/CompanyAPI.Application.csproj CompanyAPI.Application/
-COPY CompanyAPI.Domain/CompanyAPI.Domain.csproj CompanyAPI.Domain/
-COPY CompanyAPI.Infrastructure/CompanyAPI.Infrastructure.csproj CompanyAPI.Infrastructure/
 
-#restore
-RUN dotnet restore CompanyAPI/CompanyAPI.csproj
+RUN dotnet restore "CompanyAPI/CompanyAPI.sln"
 
-#copy the remaining project files
+# Copy the rest of the files and build the application
 COPY . .
+WORKDIR "/src/CompanyAPI"
+RUN dotnet build "CompanyAPI.API.csproj" -c Release -o /app/build
 
-#build the app
-WORKDIR "/src/."
-RUN dotnet build CompanyAPI.csproj -c Release -o /app/build
-
-#publish
 FROM build AS publish
-RUN dotnet publish CompanyAPI.csproj -c Release -o /app/publish
+RUN dotnet publish "CompanyAPI.API.csproj" -c Release -o /app/publish
 
-# Copy the published output to a clean image (runtime image)
-FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS base
+# Final stage to run the application
+FROM base AS final
 WORKDIR /app
-EXPOSE 5000
 COPY --from=publish /app/publish .
-
-# Define the entry point for the container
-ENTRYPOINT ["dotnet", "CompanyAPI.dll"]
+ENTRYPOINT ["dotnet", "CompanyAPI.API.dll"]

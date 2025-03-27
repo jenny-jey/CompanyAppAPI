@@ -1,39 +1,40 @@
+version: '3.8'
+
 services:
-  sqlserver:
+  companyapi:
+    build:
+      context: ../CompanyAppAPI   
+      dockerfile: Dockerfile
+    ports:
+      - "5000:5000"
+    environment:
+      - ASPNETCORE_URLS=http://+:5000
+      - ConnectionStrings__DefaultConnection=Server=db;Database=CompanyDb;User Id=sa;Password=YourStrong!Passw0rd;
+    depends_on:
+      - db
+
+  db:
     image: mcr.microsoft.com/mssql/server:2022-latest
-    container_name: sqlserver
+    container_name: companydb
     environment:
       SA_PASSWORD: "YourStrong!Passw0rd"
       ACCEPT_EULA: "Y"
     ports:
-      - "1433:1433"  # Expose SQL Server port
+      - "1433:1433"
+    volumes:
+      - sql_data:/var/opt/mssql  # Persist database data
 
-  api:
+  companyclient:
     build:
-      context: ./  # Set context to the current folder where Dockerfile is located (D:\API)
-      dockerfile: Dockerfile  # Dockerfile is inside the API folder
-    container_name: companyapi
+      context: ../CompanyAppClient 
+      dockerfile: Dockerfile      
+    ports:
+      - "4200:80"
     depends_on:
-      - sqlserver
+      - companyapi
     environment:
-      - ASPNETCORE_ENVIRONMENT=Development
-    ports:
-      - "5000:5000"  # Expose the API on port 5000
-    networks:
-      - app-network
+      - ANGULAR_APP_API_URL=http://companyapi:5000
+    working_dir: /app
 
-  client:
-    build:
-      context: ../Client  # Adjust context to the parent folder (D:\Client)
-      dockerfile: CompanyClient/Dockerfile  # Dockerfile is inside the CompanyClient folder
-    container_name: companyclient
-    depends_on:
-      - api
-    ports:
-      - "80:80"  # Expose Angular app on port 80
-    networks:
-      - app-network
-
-networks:
-  app-network:
-    driver: bridge
+volumes:
+  sql_data:  # Persistent volume for database

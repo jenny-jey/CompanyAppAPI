@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "PWgPrgEkDgQP8SHk6GnRpqWk9CGXeNUsUYSBg8xGOdqXnLbB11N3qBU0CEVD+HnZOamolucVRTjtCXnOw+jb7Q==",
+  "dgSpecHash": "5SwP3Y7Kj2AAQ+O1IZXaP/yfzv5eXR03qrUu5OmUXXI44VrQjOOuglr3SRTk03aisqTwTWVG2bi25WsZGJ+uXw==",
   "success": true,
-  "projectFilePath": "D:\\API\\CompanyAPI.Domain\\CompanyAPI.Domain.csproj",
+  "projectFilePath": "D:\\CompanyApp\\CompanyAppAPI\\CompanyAPI.Domain\\CompanyAPI.Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jenij\\.nuget\\packages\\fluentvalidation\\11.11.0\\fluentvalidation.11.11.0.nupkg.sha512"
   ],

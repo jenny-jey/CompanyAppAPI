@@ -461,11 +461,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\API\\CompanyAPI.Application\\CompanyAPI.Application.csproj",
+      "projectUniqueName": "D:\\CompanyApp\\CompanyAppAPI\\CompanyAPI.Application\\CompanyAPI.Application.csproj",
       "projectName": "CompanyAPI.Application",
-      "projectPath": "D:\\API\\CompanyAPI.Application\\CompanyAPI.Application.csproj",
+      "projectPath": "D:\\CompanyApp\\CompanyAppAPI\\CompanyAPI.Application\\CompanyAPI.Application.csproj",
       "packagesPath": "C:\\Users\\jenij\\.nuget\\packages\\",
-      "outputPath": "D:\\API\\CompanyAPI.Application\\obj\\",
+      "outputPath": "D:\\CompanyApp\\CompanyAppAPI\\CompanyAPI.Application\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -486,8 +486,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\API\\CompanyAPI.Domain\\CompanyAPI.Domain.csproj": {
-              "projectPath": "D:\\API\\CompanyAPI.Domain\\CompanyAPI.Domain.csproj"
+            "D:\\CompanyApp\\CompanyAppAPI\\CompanyAPI.Domain\\CompanyAPI.Domain.csproj": {
+              "projectPath": "D:\\CompanyApp\\CompanyAppAPI\\CompanyAPI.Domain\\CompanyAPI.Domain.csproj"
             }
           }
         }

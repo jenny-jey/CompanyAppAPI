@@ -10,3 +10,16 @@ D:\API\CompanyAPI.Domain\obj\Debug\net8.0\refint\CompanyAPI.Domain.dll
 D:\API\CompanyAPI.Domain\obj\Debug\net8.0\CompanyAPI.Domain.pdb
 D:\API\CompanyAPI.Domain\obj\Debug\net8.0\ref\CompanyAPI.Domain.dll
 D:\API\CompanyAPI.Domain\obj\Debug\net8.0\CompanyAPI.Domain.csproj.AssemblyReference.cache
+D:\CompanyApp\CompanyAppAPI\CompanyAPI.Domain\bin\Debug\net8.0\CompanyAPI.Domain.deps.json
+D:\CompanyApp\CompanyAppAPI\CompanyAPI.Domain\bin\Debug\net8.0\CompanyAPI.Domain.dll
+D:\CompanyApp\CompanyAppAPI\CompanyAPI.Domain\bin\Debug\net8.0\CompanyAPI.Domain.pdb
+D:\CompanyApp\CompanyAppAPI\CompanyAPI.Domain\obj\Debug\net8.0\CompanyAPI.Domain.csproj.AssemblyReference.cache
+D:\CompanyApp\CompanyAppAPI\CompanyAPI.Domain\obj\Debug\net8.0\CompanyAPI.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\CompanyApp\CompanyAppAPI\CompanyAPI.Domain\obj\Debug\net8.0\CompanyAPI.Domain.AssemblyInfoInputs.cache
+D:\CompanyApp\CompanyAppAPI\CompanyAPI.Domain\obj\Debug\net8.0\CompanyAPI.Domain.AssemblyInfo.cs
+D:\CompanyApp\CompanyAppAPI\CompanyAPI.Domain\obj\Debug\net8.0\CompanyAPI.Domain.csproj.CoreCompileInputs.cache
+D:\CompanyApp\CompanyAppAPI\CompanyAPI.Domain\obj\Debug\net8.0\CompanyAPI.Domain.sourcelink.json
+D:\CompanyApp\CompanyAppAPI\CompanyAPI.Domain\obj\Debug\net8.0\CompanyAPI.Domain.dll
+D:\CompanyApp\CompanyAppAPI\CompanyAPI.Domain\obj\Debug\net8.0\refint\CompanyAPI.Domain.dll
+D:\CompanyApp\CompanyAppAPI\CompanyAPI.Domain\obj\Debug\net8.0\CompanyAPI.Domain.pdb
+D:\CompanyApp\CompanyAppAPI\CompanyAPI.Domain\obj\Debug\net8.0\ref\CompanyAPI.Domain.dll

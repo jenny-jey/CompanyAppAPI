@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "LFOkMuRm1ZcwciRVNapc2hDavwynmlnsR424QZxDU4T9FsekSdQ7Pa+tShsBw9GO6sefgxpfvk2xVWvkEBc9dQ==",
+  "dgSpecHash": "2hhEwb52hILx1doufE8yFOpIeVwebnM85H08Nn1asQEeyIJfAC2uW0+4DlLYTGl7otXCi9++ySOdROTKMJQSug==",
   "success": true,
-  "projectFilePath": "D:\\API\\CompanyAPI.Application\\CompanyAPI.Application.csproj",
+  "projectFilePath": "D:\\CompanyApp\\CompanyAppAPI\\CompanyAPI.Application\\CompanyAPI.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jenij\\.nuget\\packages\\fluentvalidation\\11.11.0\\fluentvalidation.11.11.0.nupkg.sha512",
     "C:\\Users\\jenij\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\8.0.14\\microsoft.aspnetcore.authentication.jwtbearer.8.0.14.nupkg.sha512",
