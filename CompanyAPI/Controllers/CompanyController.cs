@@ -40,6 +40,7 @@ namespace CompanyAPI.API.Controllers
             }
         }
 
+        [Authorize]
         [HttpGet("{id:int}")]
         public async Task<IActionResult> GetCompanyById(int id)
         {

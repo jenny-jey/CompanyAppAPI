@@ -4,6 +4,7 @@ using CompanyAPI.Infrastructure;
 using FluentValidation;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using Serilog;
@@ -43,7 +44,8 @@ builder.Services.AddScoped<IAuthService, AuthService>();
 
 // JWT
 
-var key = Encoding.UTF8.GetBytes("MySecretKey123456"); // Change this to a secure key
+//var key = Encoding.UTF8.GetBytes("MySecretKey123456"); // Change this to a secure key
+var configuration = builder.Configuration;
 
 builder.Services.AddAuthentication(options =>
 {
@@ -52,14 +54,17 @@ builder.Services.AddAuthentication(options =>
 })
 .AddJwtBearer(options =>
 {
+    var key = Encoding.UTF8.GetBytes(configuration["Jwt:SecretKey"]);
     options.RequireHttpsMetadata = false;
     options.SaveToken = true;
     options.TokenValidationParameters = new TokenValidationParameters
     {
-        ValidateIssuer = false,
-        ValidateAudience = false,
+        ValidateIssuer = true,
+        ValidateAudience = true,
         ValidateLifetime = true,
         ValidateIssuerSigningKey = true,
+        ValidIssuer = configuration["Jwt:Issuer"],
+        ValidAudience = configuration["Jwt:Audience"],
         IssuerSigningKey = new SymmetricSecurityKey(key)
     };
 });
